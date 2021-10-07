@@ -6,7 +6,7 @@
       $adress = $_POST['adress'];
       $mail = "Имя: $name ;
       Email: $email ;
-      Телефон: $message ;
+      Телефон: $phone ;
       Адрес доставки: $adress ;";
       mail('mail@yaroslava.space','New message',$mail);
    }
